@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 
-body {
+/* body {
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
     min-height: 100vh;
-}
+} */
 
 .tree {
     width: 100px;
