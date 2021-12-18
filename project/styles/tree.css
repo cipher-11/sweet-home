@@ -26,6 +26,7 @@
     height: 70px;
     background-color: #3c2703;
     border-radius: 10px 10px 0px 0px;
+    z-index: 70;
 }
 
 .petal2 {
@@ -49,4 +50,5 @@
     height: 70px;
     background-color: #3c2703;
     border-radius: 10px 10px 0px 0px;
+    z-index: 70;
 }
