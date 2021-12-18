@@ -1,9 +1,10 @@
 *{
-    background-color: cadetblue;
+    font-family: sans-serif;
     box-sizing: border-box;
 }
 
 html, body{
+    
     height: 100%;
     width: 100%;
 }
@@ -24,9 +25,39 @@ html, body{
     justify-content: space-around;
 }
 
+.tools-header{
+    text-align: center;
+}
+
+.tools{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 30px;
+}
+
+.tools>div{
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.tools>div img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
 .main{
+    background-color: thistle;
     grid-column: -2/-1;
-    background-color: lightpink;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,10 +90,12 @@ html, body{
 
 .side .tools-wrapper .tools-header{
     height: 50px;
-    
 }
 
+
+
 .main .complete-area{
+    background: linear-gradient(to bottom, skyblue, cornflowerblue);
     height: 90%;
     width: 90%;
     position: relative;
@@ -71,10 +104,9 @@ html, body{
 .complete-area .house-container{
     height: 200px;
     width: 350px;
-    background-color: mediumaquamarine;
     position: absolute;
-    top: 100px;
-    left: 100px;
+    bottom: 95px;
+    left: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,22 +115,39 @@ html, body{
 
 .complete-area .tree-container{
     height: 250px;
-    width: 100px;
-    background-color: transparent;
+    width: 200px;
+    /* background-color: transparent; */
 }
 
 .complete-area .tree-container#tree-1{
     position: absolute;
-    top: 140px;
-    left: 500px;
+    bottom: 35px;
+    left: 550px ;
 }
 
 .complete-area .tree-container#tree-2{
     position: absolute;
-    top: 180px;
-    left: 550px;
+    
+    bottom: 35px;
+    left: 20px;
 }
 
+.grass-container{
+    position: absolute;
+    width: 90%;
+    height: 50px;
+    left: 50px;
+    bottom: 70px;
+    z-index: 100;
+}
+
+.cloud-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+}
 
 
 
