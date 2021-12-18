@@ -13,14 +13,52 @@ body {
 }
 
 .tree {
+    width: 100px;
+    height: 250px;
     position: relative;
+    /* background-color: skyblue; */
+}
+
+.petal1 {
     width: 120px;
     height: 120px;
     background: #94ab38;
     border-top-left-radius: 80px;
     border-bottom-right-radius: 80px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) rotate(140deg);
+    box-shadow: 0px 10px 10px 3px #7b921f;
 }
 
-.trunk {
+.trunk1 {
     position: absolute;
+    bottom: 0;
+    left: 45%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 140px;
+    background-color: #3c2703;
+}
+
+.petal2 {
+    width: 120px;
+    height: 120px;
+    background: #94ab38;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    position: absolute;
+    left: 80%;
+    transform: translateX(-50%) rotate(140deg);
+    box-shadow: 0px 10px 10px 3px #7b921f;
+}
+
+.trunk2 {
+    position: absolute;
+    bottom: 0;
+    left: 75%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 140px;
+    background-color: #3c2703;
 }
