@@ -1,0 +1,16 @@
+.grass-container img{
+    /* height: ; */
+    height: 100%;
+    width: 100%;
+    /* object-fit: fill; */
+}
+
+.grass-container{
+    position: absolute;
+    width: 90%;
+    height: 50px;
+    background-color: cornflowerblue;
+    left: 50px;
+    top: 300px;
+    z-index: 50;
+}

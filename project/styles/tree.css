@@ -39,6 +39,7 @@
     width: 10px;
     height: 140px;
     background-color: #3c2703;
+    z-index: 70;
 }
 
 .petal2 {
@@ -61,4 +62,5 @@
     width: 10px;
     height: 140px;
     background-color: #3c2703;
+    z-index: 70;
 }
