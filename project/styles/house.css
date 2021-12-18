@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 /* body {
     display: flex;
     justify-content: center;
@@ -28,6 +29,22 @@
     width: 250px;
     height: 100px;
     background: #fff;
+}
+
+.width1 {
+    width: 175px;
+}
+
+.width2 {
+    width: 200px;
+}
+
+.width3 {
+    width: 225px;
+}
+
+.width4 {
+    width: 250px;
 }
 
 .house-main::before {
