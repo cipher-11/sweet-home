@@ -1,0 +1,126 @@
+* {
+    background-color: cadetblue;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.cloud {
+    height: 100px;
+    width: 90%;
+    background: linear-gradient(to bottom, skyblue, cornflowerblue);
+    overflow: hidden;
+    position: relative;
+}
+
+.cloud1 {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    height: 35px;
+    width: 100px;
+    background: white;
+    border-radius: 1000px;
+    animation: animate 15s infinite linear;
+}
+
+.cloud1::before {
+    content: '';
+    position: absolute;
+    top: -80%;
+    left: 10%;
+    height: 150%;
+    width: 50%;
+    background: white;
+    border-radius: 50%;
+}
+
+.cloud1::after {
+    content: '';
+    position: absolute;
+    top: -40%;
+    right: 20%;
+    height: 100%;
+    width: 30%;
+    background: white;
+    border-radius: 50%;
+}
+
+.cloud2 {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    height: 35px;
+    width: 100px;
+    background: white;
+    border-radius: 1000px;
+    animation: animate 18s infinite linear;
+}
+
+.cloud2::before {
+    content: '';
+    position: absolute;
+    top: -80%;
+    left: 10%;
+    height: 150%;
+    width: 50%;
+    background: white;
+    border-radius: 50%;
+}
+
+.cloud2::after {
+    content: '';
+    position: absolute;
+    top: -40%;
+    right: 20%;
+    height: 100%;
+    width: 30%;
+    background: white;
+    border-radius: 50%;
+}
+
+.cloud3 {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    height: 35px;
+    width: 100px;
+    background: white;
+    border-radius: 1000px;
+    animation: animate 20s infinite linear;
+}
+
+.cloud3::before {
+    content: '';
+    position: absolute;
+    top: -80%;
+    left: 10%;
+    height: 150%;
+    width: 50%;
+    background: white;
+    border-radius: 50%;
+}
+
+.cloud3::after {
+    content: '';
+    position: absolute;
+    top: -40%;
+    right: 20%;
+    height: 100%;
+    width: 30%;
+    background: white;
+    border-radius: 50%;
+}
+
+@keyframes animate {
+    from {
+        left: 0
+    }
+    to {
+        left: 100%;
+    }
+}
