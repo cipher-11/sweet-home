@@ -1,12 +1,9 @@
-* {
-    box-sizing: border-box;
-}
 
 
 .cloud {
-    height: 100%;
-    width: 120%;
-    background: linear-gradient(to bottom, skyblue, cornflowerblue);
+    height: 100px;
+    width: 100%;
+    /* background: linear-gradient(to bottom, skyblue, cornflowerblue); */
     overflow: hidden;
     position: relative;
 }

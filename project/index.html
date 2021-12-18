@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/house.css">
     <link rel="stylesheet" href="styles/tree.css">
     <link rel="stylesheet" href="styles/grass.css">
+    <link rel="stylesheet" href="styles/cloud.css">
 </head>
 <body>
     <div class="wrapper">
@@ -20,12 +21,29 @@
                 <div id="bhk4">4 BHK</div>
             </div>
             <div class="tools-wrapper">
-                <div class="tools-header"></div>
-                <div class="tools"></div>
+                <div class="tools-header">
+                    <h1>Tools</h1>
+                </div>
+                <div class="tools">
+                    <div class="grass-draggable">
+                        <img src="images/grass-with-no-background-1154972115063g7t5hjpt-removebg-preview-removebg-preview.png" alt="" id="grass-image" draggable="true">
+                    </div>
+                    <div class="tree-draggable">
+                        <img src="images/download-removebg-preview.png" alt="" id="tree-image" draggable="true">
+                    </div>
+                </div>
             </div>
         </div>
         <div class="main">
             <div class="complete-area">
+                <div class="cloud-container">
+                    <div class="cloud">
+                        <div class="cloud1"></div>
+                        <div class="cloud2"></div>
+                        <div class="cloud3"></div>
+                    </div>
+                </div>
+                
                 <div class="house-container">
                     <div class="house">
                         <div class="house-main">
@@ -46,18 +64,14 @@
                     </div>
 
                 </div>
-                <div class="grass-container">
-                    <img src="images/grass-with-no-background-1154972115063g7t5hjpt-removebg-preview-removebg-preview.png" alt="">
+                <div class="grass-container" data-draggable-id="grass-image">
+                    <!-- <img src="images/grass-with-no-background-1154972115063g7t5hjpt-removebg-preview-removebg-preview.png" alt=""> -->
                 </div>
-                <div class="tree-container" id="tree-1">
-                    <div class="tree">
-                        <div class="petal1"></div>
-                        <div class="trunk1"></div>
-                        <div class="petal2"></div>
-                        <div class="trunk2"></div>
-                    </div>
+                <div class="tree-container" id="tree-1" data-draggable-id="tree-image">
+                    
                 </div>
-                <div class="tree-container" id="tree-2"></div>
+                <div class="tree-container" id="tree-2" data-draggable-id="tree-image">
+                </div>
             </div>
         </div>
     </div>
