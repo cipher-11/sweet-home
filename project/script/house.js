@@ -10,12 +10,14 @@ for(let i = 0; i < bhkArr.length; i++)
 function displayHouse(e)
 {
     var targetId = e.target.getAttribute("id") ;
+    var house_main = document.querySelector(".house-main");
     console.log(targetId)
 
     if(targetId == "bhk1")
     {
         var windows = document.getElementsByClassName("windows")
         windows[0].style.display = "none"
+        house_main.style.width = "175px";
 
         var side1 = document.getElementsByClassName("side1") ;
         var side2 = document.getElementsByClassName("side2") ;
@@ -28,6 +30,8 @@ function displayHouse(e)
     {
         var windows = document.getElementsByClassName("windows")
         windows[0].style.display = "none"
+        house_main.style.width = "200px";
+
 
         var side1 = document.getElementsByClassName("side1") ;
         var side2 = document.getElementsByClassName("side2") ;
@@ -39,6 +43,8 @@ function displayHouse(e)
     {
         var windows = document.getElementsByClassName("windows")
         windows[0].style.display = "block"
+        house_main.style.width = "225px";
+
 
         var side1 = document.getElementsByClassName("side1") ;
         var side2 = document.getElementsByClassName("side2") ;
@@ -49,6 +55,8 @@ function displayHouse(e)
     else{
         var windows = document.getElementsByClassName("windows")
         windows[0].style.display = "block"
+        house_main.style.width = "250px";
+
 
         var side1 = document.getElementsByClassName("side1") ;
         var side2 = document.getElementsByClassName("side2") ;
